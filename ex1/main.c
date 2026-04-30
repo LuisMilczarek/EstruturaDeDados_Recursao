@@ -14,6 +14,5 @@ int main()
     double time;
 
     MEASURE_TIME(time, fibo(50));
-    printf("time: %f", time);
-
+    printf("time: %0.16fs\n", time/1000);
 }

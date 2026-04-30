@@ -5,4 +5,6 @@ project(AulaRecursao)
 include_directories(common/include)
 
 add_executable(ex1_basico ex1/main.c)
+add_executable(ex2_linearizacao ex2/main.c)
+add_executable(ex3_memoization ex3/main.c)
 add_executable(gen_graph_fibo experiments.c)
