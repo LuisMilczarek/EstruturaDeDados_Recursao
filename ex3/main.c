@@ -21,6 +21,6 @@ int main()
 
     double time;
     MEASURE_TIME(time, fibo_memoization(50, cache, 50));
-    printf("time: %0.16fs\n", time);
+    printf("time: %20.16fs\n", time);
 
 }

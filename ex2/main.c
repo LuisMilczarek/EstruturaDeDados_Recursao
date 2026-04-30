@@ -26,5 +26,5 @@ int main()
 {
     double time;
     MEASURE_TIME(time, fibo_linear(50));
-    printf("time: %0.16fs\n", time/1000);
+    printf("time: %20.16fs\n", time/1000);
 }
